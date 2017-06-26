@@ -8,6 +8,9 @@
   /*** 7.0 CONTACT FORM ***/
   /*** 8.0 SIDEBAR ***/
   /*** 9.0 FOOTER ***/
+  /*** 10.1 MEDIA QUERY - 980PX ***/
+  /*** 10.2 MEDIA QUERY - 768PX ***/
+  /*** 10.3 MEDIA QUERY - 640PX ***/
 /*------------------------------------------*/
 
 /*** 1.0 BOX SIZING ***/
@@ -223,4 +226,157 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+}
+
+/*** 10.1 MEDIA QUERY - 980PX ***/
+@media screen and (max-width: 980px) {
+  body {
+    font-size: 17px;
+  }
+  p {
+    margin-bottom: 0px;
+    line-height: 28px;
+  }
+  .container {
+    width: 100%;
+  }
+  #logo {
+    width: 350px;
+    height: 75px;
+    margin-left: 100px;
+    font-size: 26px;
+    line-height: 80px;
+  }
+  nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 65px;
+  }
+  #main-container {
+    width: 400px;
+    margin-left: 100px;
+    padding-top: 110px;
+  }
+  .auth-image {
+    width: 340px;
+    margin-bottom: 16px;
+  }
+  .work {
+    width: 330px;
+  }
+  .sidebar {
+    float: right;
+    max-width: 220px;
+    margin-left: 0px;
+    margin-right: 0px
+  }
+  .sidebar h2 {
+    font-size: 18px;
+  }
+  .social {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+/*** 10.2 MEDIA QUERY - 768PX ***/
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+  .container {
+    width: 100%;
+  }
+  #logo {
+    width: 320px;
+    height: 75px;
+    margin-left: 50px;
+    font-size: 24px;
+    line-height: 80px;
+  }
+  nav {
+    float: right;
+    margin-top: 10px;
+    margin-right: 35px;
+    line-height: 52px;
+  }
+  #main-container {
+    width: 650px;
+    margin-left: 50px;
+    padding-top: 110px;
+  }
+  .auth-image {
+    width: 290px;
+    margin-bottom: 16px;
+  }
+  .work {
+    width: 270px;
+  }
+  .sidebar {
+    float: right;
+    max-width: 650px;
+    margin-left: 0px;
+    margin-right: 0px
+  }
+  .sidebar h2 {
+    font-size: 20px;
+  }
+  .social {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+/*** 10.2 MEDIA QUERY - 640PX ***/
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+  .container {
+    width: 100%;
+  }
+  #logo {
+    width: 320px;
+    height: 75px;
+    margin-left: 50px;
+    font-size: 24px;
+    line-height: 80px;
+  }
+  nav {
+    float: right;
+    margin-top: 10px;
+    margin-right: 35px;
+    line-height: 52px;
+  }
+  #main-container {
+    width: 650px;
+    margin-left: 50px;
+    padding-top: 110px;
+  }
+  .auth-image {
+    width: 290px;
+    margin-bottom: 16px;
+  }
+  .work {
+    width: 270px;
+  }
+  .sidebar {
+    float: right;
+    max-width: 650px;
+    margin-left: 0px;
+    margin-right: 0px
+  }
+  .sidebar h2 {
+    font-size: 20px;
+  }
+  .social {
+    width: 55px;
+    height: 55px;
+  }
 }
