@@ -237,9 +237,9 @@ footer {
     margin-bottom: 0px;
     line-height: 28px;
   }
-  .container {
-    width: 100%;
-  }
+  .main-section {
+      max-width: 400px;
+    }
   #logo {
     width: 350px;
     height: 75px;
@@ -250,10 +250,10 @@ footer {
   nav {
     float: right;
     margin-top: 20px;
-    margin-right: 65px;
+    margin-right: 180px;
   }
   #main-container {
-    width: 400px;
+    width: 650px;
     margin-left: 100px;
     padding-top: 110px;
   }
@@ -287,8 +287,8 @@ footer {
   p {
     margin-bottom: 0px;
   }
-  .container {
-    width: 100%;
+  .main-section {
+    max-width: 660px;
   }
   #logo {
     width: 320px;
@@ -330,7 +330,7 @@ footer {
   }
 }
 
-/*** 10.2 MEDIA QUERY - 640PX ***/
+/*** 10.3 MEDIA QUERY - 640PX ***/
 @media screen and (max-width: 640px) {
   body {
     font-size: 16px;
@@ -341,18 +341,19 @@ footer {
   .container {
     width: 100%;
   }
+  #masthead {
+    position: fixed;
+  }
   #logo {
-    width: 320px;
+    width: 100%;
     height: 75px;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 24px;
     line-height: 80px;
   }
   nav {
-    float: right;
     margin-top: 10px;
-    margin-right: 35px;
-    line-height: 52px;
+    line-height: 52px; 
   }
   #main-container {
     width: 650px;
