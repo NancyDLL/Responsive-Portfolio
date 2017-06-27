@@ -231,44 +231,43 @@ footer {
 /*** 10.1 MEDIA QUERY - 980PX ***/
 @media screen and (max-width: 980px) {
   body {
-    font-size: 17px;
+    font-size: 16px;
   }
   p {
     margin-bottom: 0px;
     line-height: 28px;
   }
   .main-section {
-      max-width: 400px;
+      max-width: 420px;
     }
   #logo {
     width: 350px;
     height: 75px;
-    margin-left: 100px;
+    margin-left: 120px;
     font-size: 26px;
     line-height: 80px;
   }
   nav {
     float: right;
     margin-top: 20px;
-    margin-right: 180px;
+    margin-right: 150px;
   }
   #main-container {
-    width: 650px;
-    margin-left: 100px;
+    width: 685px;
+    margin-left: 120px;
     padding-top: 110px;
   }
   .auth-image {
-    width: 340px;
+    width: 355px;
     margin-bottom: 16px;
   }
   .work {
-    width: 330px;
+    width: 355px;
   }
   .sidebar {
     float: right;
     max-width: 220px;
-    margin-left: 0px;
-    margin-right: 0px
+    margin-right: 0px;
   }
   .sidebar h2 {
     font-size: 18px;
@@ -288,7 +287,7 @@ footer {
     margin-bottom: 0px;
   }
   .main-section {
-    max-width: 660px;
+    max-width: 700px;
   }
   #logo {
     width: 320px;
@@ -304,22 +303,21 @@ footer {
     line-height: 52px;
   }
   #main-container {
-    width: 650px;
-    margin-left: 50px;
+    width: 720px;
+    margin-left: 25px;
     padding-top: 110px;
   }
   .auth-image {
-    width: 290px;
+    width: 300px;
     margin-bottom: 16px;
   }
   .work {
-    width: 270px;
+    width: 296px;
   }
   .sidebar {
-    float: right;
-    max-width: 650px;
-    margin-left: 0px;
-    margin-right: 0px
+    float: left;
+    max-width: 700px;
+
   }
   .sidebar h2 {
     font-size: 20px;
@@ -369,13 +367,13 @@ footer {
     margin-bottom: 16px;
   }
   .work {
-    width: 270px;
+    width: 490px;
   }
   .sidebar {
     float: left;
     max-width: 560px;
     margin-left: 0px;
-    margin-right: 0px
+    margin-right: 0px;
   }
   .sidebar h2 {
     font-size: 20px;
